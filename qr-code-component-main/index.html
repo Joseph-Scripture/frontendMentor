@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color: hsl(212, 45%, 89%);
+      font-family: 'Outfit', sans-serif;
+      display: grid;
+      place-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .card{
+      background-color: white;
+      padding: 1rem;
+      border-radius: 20px;
+      width: 320px;
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    }
+    .card img{
+      width: 100%;
+      border-radius: 15px;
+      margin-bottom: 1rem;
+    }
+    .card h1{
+      font-size: 1.3rem;
+      margin-bottom: 0.75rem;
+      color: hsl(218, 44%, 22%);
+
+    }
+    .card p{
+      font-size: 0.9rem;
+      color: hsl(220, 15%, 55%);
+      padding: 0 .5rem 1rem;
+      
+    }
+    @media (max-width: 768px){
+      .card{
+        margin: 10px;
+        height: 500px;
+      }
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="images/image-qr-code.png" alt="">
+    <h1>
+      Improve your front-end skills by building projects
+    </h1>
+    <p>
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </p>
+  </div>
+  
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Joseph Scripture</a>.
+  </div>
+</body>
+</html>
